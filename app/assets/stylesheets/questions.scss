@@ -1,0 +1,70 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-size: 40px;
+}
+
+.question-input {
+  display: flex;
+  height: 40px;
+}
+
+.question-field {
+  flex-grow: 1;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #eee;
+  border-right: none;
+}
+
+.question-btn {
+  width: 150px;
+  background-color: #69c;
+  border: 1px solid #eee;
+  color: white;
+  font-size: 15px;
+  border-radius: 0 10px 10px 0;
+}
+
+.question-btn:hover {
+  font-weight: bold;
+}
+
+body p {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.response-box {
+  border-left: 10px solid #eee;
+  padding-left: 8px;
+  background-color: #e1e0d5;
+}
+
+.question-box {
+  border-left: 10px solid #eee;
+  padding-left: 8px;
+
+}
+
+  // <form action="/answer" method="get" class="question-box">
+  //   <input type="text" name="question" class="question-field">
+  //   <input type="submit" value="Ask!" class="question-btn">
+  // </form>
+
+
+// <div class="question-box">
+//   <p><%= params[:question]  %></p>
+//   <p><i>- You</i></p>
+// </div>
+// <div class="response-box">
+//   <p><%= @answer  %></p>
+//   <p><i>- Coach</i></p>
+// </div>
+// <br>
+// <p id="link"><%= link_to "Ask another question", ask_path  %></p>
+
